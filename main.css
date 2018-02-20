@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+#mapcontainer {
+  position: absolute;
+  top: 50px;
+  bottom: 100px;
+  left: 0px;
+  right: 0px;
+  padding: 0px;
+}
+
+#timecontainer {
+  position: absolute;
+  background-color: lightgrey;
+  height: 100px;
+  width: 100%;
+  bottom: 0px;
+  padding: 0
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fdfdfd;
+  font-size: 1.6em;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#title {
+  font-family: sans-serif;
+}
+
+.navbar-header {
+  font-family: sans-serif;
+  align-self: center;
+}
+
+.infowindow {
+  height: 300px;
+  width: 260px;
+  background-color: grey;
+  opacity: 0.8;
+  color: white;
+}
